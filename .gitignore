@@ -1,3 +1,47 @@
+# ------------------------------------
+# VISUAL STUDIO / IDE SPECIFIC FILES
+# ------------------------------------
+
+# User-specific project settings (DO NOT COMMIT)
+*.vcxproj.user
+*.vcxproj.filters
+
+# Visual Studio Solution User Options (Local IDE state)
+*.suo
+*.suo.bak
+*.suo.*.v12
+*.suo.*.v14
+*.suo.*.v15
+
+# Hidden solution cache folder created by Visual Studio (VS 2017+)
+.vs/
+
+# ------------------------------------
+# BUILD / INTERMEDIATE FILES
+# ------------------------------------
+
+# Generated build directories (Debug/Release, etc.)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+out/
+
+# Intermediate build files (Precompiled headers, Intel IPCH, etc.)
+ipch/
+*.obj.enc
+*.codeanalysis.sarif
+*.tlog
+*.temp.rsp
+*.incrBuild
+*.pyc
+
+# ------------------------------------
+# GENERIC COMPILER / LINKER FILES (Your List)
+# ------------------------------------
+
 # Prerequisites
 *.d
 
@@ -37,5 +81,5 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
